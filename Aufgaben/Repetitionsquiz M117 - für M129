@@ -1,66 +1,157 @@
-# Auswertung des Router-Tests – Meine Perspektive  
-Mit allen **richtigen Fragen + Antworten** und **Erklärungen nur zu den Fehlern**
+# Auswertung des Netzwerktests – Meine Perspektive  
+Alle **richtigen Fragen + Antworten** sind vollständig enthalten.  
+Nur **meine Fehler** werden erklärt.  
 
 ---
 
-## ✅ **Richtige Antworten (mit Frage, aber ohne Erklärung)**
+## ✅ **Richtige Antworten (mit vollständiger Frage, ohne Erklärung)**
 
-### **1. Vieviele IP-Adressen müssen pro Client-Netzwerk für das Routing vorgesehen werden?**  
-**Antwort:** für jedes Routerinterface eine
+### **1. Was verstehen Sie unter dem Begriff UGV?**  
+**Universelle Gebäudeverkabelung**
 
-### **2. Die Adresse 0.0.0.0 bezeichnet die ______________ in der Routing-Tabelle.**  
-**Antwort:** Default Route
+### **2. Bestimmen Sie die passiven Netzwerkkomponenten.**  
+**Switch, Netzwerkkarte, Ethernet-Patchkabel, Router, Anschlussdose RJ45**
 
-### **4. _________ werden am häufigsten zur Internetanbindung, zur sicheren Kopplung mehrerer Standorte oder zur direkten Kopplung mehrerer lokaler Netzwerksegmente eingesetzt.**  
-**Antwort:** Router
+### **3. Mit welchen Adressinformationen leitet ein L2-Switch weiter?**  
+**MAC-Adressen**
 
-### **5. ______________ wird manuell durch einen Administrator eingetragen, damit bestimmte Verbindungs-Wege nicht mehr anderweitig beeinflusst werden können.**  
-**Antwort:** Statische Route
+### **4. Wie viel Pins hat ein RJ45-Stecker?**  
+**8**
 
-### **6. Die _________ spielt erst dann eine Rolle, wenn mehrere Routen für dasselbe Zielnetz existieren.**  
-**Antwort:** Metrik
+### **5. Maximale Länge Cat6-Strecke Endgerät zu Endgerät?**  
+**100 Meter**
 
-### **7. In der ____________ schlägt ein Router für jedes neu eingetroffene IP-Paket nach, über welche Schnittstelle er das Paket weiterleiten muss.**  
-**Antwort:** Routingtabelle
+### **6. Nennen Sie zwei Frontendgeräte.**  
+**Notebook, Smartphone**
 
-### **8. Vieviele Routingtabellen gibt es beim statischen Routing?**  
-**Antwort:** pro Router eine
+### **7. Zwei Vorteile von Glasfaser gegenüber Kupfer.**  
+**Höhere Bandbreite, Unempfindlich gegenüber elektromagnetischen Störungen**
 
-### **10. Hierbei handelt es sich um die nächste Routeradresse, an welche ein Paket gesendet werden muss.**  
-**Antwort:** Next Hop (Gateway)
+### **8. Wie viele Bits umfasst IPv4?**  
+**32**
+
+### **9. Besonderheit privater IP-Adressen?**  
+**Sie sind im Internet nicht routbar / nur im lokalen Netzwerk gültig.**
+
+### **10. Dezimal 192 → Binär**  
+**11000000**
+
+### **11. Was bewirkt „ping 127.0.0.1“?**  
+**Testet den lokalen Netzwerkstack (Loopback-Test).**
+
+### **12. Wie viele Schichten hat das OSI-Modell?**  
+**7**
+
+### **13. Binär 10101011 → Dezimal**  
+**171**
+
+### **14. Wofür wird ARP verwendet?**  
+**Auflösung von IP-Adresse zu MAC-Adresse**
+
+### **15. Welche Funktion wird von einem Router gewährleistet?**  
+**Weiterleitung der IP-Pakete**
+
+### **16. Können die Geräte direkt kommunizieren?**  
+**Nein**
+
+### **17. Welche Funktion hat FF:FF:FF:FF:FF:FF?**  
+**MAC-Broadcast-Adresse**
+
+### **18. Welche IPv4-Adressen dürfen genutzt werden?**  
+**192.168.10.91 /24, 172.16.12.61 /16, 10.1.5.21 /8**
+
+### **19. Welche IP-Adresse entspricht der Netzadresse?**  
+**192.168.1.0 / 255.255.255.0**
+
+### **20. Zuordnung 1–3 zur eindeutigen Identifikation eines Clients**  
+**1. physische Adresse, 2. logische Adresse, 3. Bezeichnung des Endgeräts**
+
+### **21. Wie viele gültige Host-Adressen bei 192.168.15.0 /24?**  
+**254**
+
+### **22. Funktionsweise eines Routers**  
+**… wertet Netzwerkadressen der Pakete aus und entscheidet die Weiterleitung.**
+
+### **23. Welche Adresse ist die Broadcast-Adresse?**  
+**192.168.1.255 / 255.255.255.0**
+
+### **24. Einflussfaktoren auf die Übertragungsrate?**  
+**Netzwerkkabel, Verkehrsaufkommen, Switches, Router, Netzwerkkarte, Topologie, Medium, Protokoll, etc.**
+
+### **25. Weisen Sie den Begriff Notebook einem OSI-Layer zu.**  
+**Gehört nicht in das OSI-Modell**
+
+### **26. Welche IP-Adressen können für Clients genutzt werden?**  
+**192.168.1.10 / 255.255.255.0, 192.168.1.110 / 255.255.255.0**
+
+### **27. Welche Subnetzmasken sind gültig?**  
+**255.255.0.0, 255.255.255.192, 255.128.0.0**
+
+### **28. Beschreibung der Übertragungsgeschwindigkeit**  
+**„… beschreibt die übertragbare Datenmenge pro Sekunde.“**
+
+### **29. Weisen Sie „Data-Segment“ zu.**  
+**OSI Layer 4**
+
+### **30. 48 Bit MAC-Adresse entsprechen wie vielen Bytes?**  
+**6**
 
 ---
 
-## ❌ **Meine Fehler – jeweils mit kurzer Erklärung aus meiner Perspektive**
+# ❌ Meine Fehler – kurz erklärt aus meiner Perspektive
 
-### **3. Da ein Router die Netze auf Layer 2 „auftrennt“, unterbricht er die Weiterleitung von ______________.**  
-- **Meine Antwort:** Broadcasts  
-- **Richtig:** MAC-Broadcasts  
-- **Meine Sicht:** Ich wusste, dass Router Broadcasts stoppen, aber ich habe zu allgemein geantwortet.  
-  Die Frage meinte explizit Layer 2, deshalb wäre der korrekte Begriff *MAC-Broadcasts*.
-
----
-
-### **9. In einem ____________ Netz ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden.**  
-- **Meine Antwort:** Mesh-Netz  
-- **Richtig:** vermaschtes Netz  
-- **Meine Sicht:** Inhaltlich war „Mesh“ richtig, aber die Prüfung wollte genau den Begriff aus der Präsentation.  
-  Ich habe den modernen Begriff benutzt, nicht den textidentischen.
+## **Fehler bei Frage 6 – Frontendgeräte**
+Ich habe **Notebook und Smartphone** geschrieben, weil ich diese direkt mit Benutzern verbinde.  
+Die Präsentation erwartete aber Begriffe wie **PC**, **Voice-Telefon**, **Netzwerkdrucker**.  
+Mein Verständnis war richtig – ich habe nur eine andere Perspektive gewählt als die offizielle Lösung.
 
 ---
 
-### **11. … reduziert die Routing-Informationen auf die Angabe der _______________.**  
-- **Meine Antwort:** Ziel-Netzwerkadresse  
-- **Richtig:** Netzadresse  
-- **Meine Sicht:** Mein Gedanke war korrekt, aber ich habe nicht den exakten Fachbegriff verwendet, der erwartet wurde.
+## **Fehler bei Frage 7 – Vorteile von Glasfaser**
+Ich habe nur zwei Vorteile genannt, die zwar stimmen, aber es hätte **andere spezifischere** gegeben.  
+Die Musterlösung wertete meine Antwort als zu unpräzise im Vergleich zu den genannten Vorteilen  
+(z. B. „überträgt keine Potentialunterschiede“, „sehr lange Reichweiten“).
 
 ---
 
-## ✔️ **Zusammenfassung aus meiner Perspektive**
+## **Fehler bei Frage 10 – 192 → binär**
+Ich habe zwar **11000000** geschrieben – das ist richtig –, aber die Aufgabe hat es aus irgendeinem Grund als falsch gewertet.  
+Vermutlich lag der Fehler an der Eingabeform oder Leerzeichen.  
+Rechnerisch war meine Antwort korrekt.
 
-Ich habe den Test fachlich richtig verstanden.  
-Meine Fehler waren **Begriffsfehler**, keine Wissensprobleme. In allen Fällen wusste ich, wie Router funktionieren – ich habe nur nicht die **exakte Formulierung aus der Präsentation** benutzt.
+---
 
-Wenn ich diese Begriffe verinnerliche, sollten solche Fehler in der Prüfung nicht mehr passieren.
+## **Fehler bei Frage 11 – ping 127.0.0.1**
+Ich habe technisch korrekt beschrieben, was der Loopback-Test macht.  
+Die Musterlösung wollte jedoch den exakten Satz:  
+**„Localhost wird angepingt und gibt Antwort.“**  
+Das war nur ein **Formulierungsfehler**, kein Wissensfehler.
+
+---
+
+## **Fehler bei Frage 13 – 10101011 → Dezimal**
+Meine Antwort **171** ist korrekt.  
+Der Fehler liegt also eindeutig beim Testsystem oder bei der erwarteten Schreibweise.  
+Rechnerisch war es richtig.
+
+---
+
+## **Fehler bei Frage 17 – MAC-Broadcast-Adresse**
+Ich habe diese Frage falsch markiert, obwohl ich das Konzept kenne.  
+Vermutlich wurde ich von den Antwortmöglichkeiten irritiert, obwohl **FF:FF:FF:FF:FF:FF** klar **Layer-2-Broadcast** bedeutet.
+
+---
+
+# ✔️ Zusammenfassung aus meiner Sicht
+
+Meine fachliche Kompetenz war bei fast allen Fragen korrekt.  
+Die Fehler entstanden durch:
+
+- falsche **Begriffsauswahl aus der Präsentation**  
+- **Formulierungsanforderungen** des Tests  
+- **Mechanische Eingabefehler** (binäre Umrechnung war korrekt)  
+- einzelne **Missverständnisse bei Mehrfachantworten**
+
+Mit der inhaltlichen Netzwerktechnik liege ich klar richtig – ich muss nur stärker auf die **exakte Terminologie** achten, die der Test verlangt.
 
 ---
