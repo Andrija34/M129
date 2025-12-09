@@ -1,1 +1,66 @@
+# Auswertung des Router-Tests – Meine Perspektive  
+Mit allen **richtigen Fragen + Antworten** und **Erklärungen nur zu den Fehlern**
 
+---
+
+## ✅ **Richtige Antworten (mit Frage, aber ohne Erklärung)**
+
+### **1. Vieviele IP-Adressen müssen pro Client-Netzwerk für das Routing vorgesehen werden?**  
+**Antwort:** für jedes Routerinterface eine
+
+### **2. Die Adresse 0.0.0.0 bezeichnet die ______________ in der Routing-Tabelle.**  
+**Antwort:** Default Route
+
+### **4. _________ werden am häufigsten zur Internetanbindung, zur sicheren Kopplung mehrerer Standorte oder zur direkten Kopplung mehrerer lokaler Netzwerksegmente eingesetzt.**  
+**Antwort:** Router
+
+### **5. ______________ wird manuell durch einen Administrator eingetragen, damit bestimmte Verbindungs-Wege nicht mehr anderweitig beeinflusst werden können.**  
+**Antwort:** Statische Route
+
+### **6. Die _________ spielt erst dann eine Rolle, wenn mehrere Routen für dasselbe Zielnetz existieren.**  
+**Antwort:** Metrik
+
+### **7. In der ____________ schlägt ein Router für jedes neu eingetroffene IP-Paket nach, über welche Schnittstelle er das Paket weiterleiten muss.**  
+**Antwort:** Routingtabelle
+
+### **8. Vieviele Routingtabellen gibt es beim statischen Routing?**  
+**Antwort:** pro Router eine
+
+### **10. Hierbei handelt es sich um die nächste Routeradresse, an welche ein Paket gesendet werden muss.**  
+**Antwort:** Next Hop (Gateway)
+
+---
+
+## ❌ **Meine Fehler – jeweils mit kurzer Erklärung aus meiner Perspektive**
+
+### **3. Da ein Router die Netze auf Layer 2 „auftrennt“, unterbricht er die Weiterleitung von ______________.**  
+- **Meine Antwort:** Broadcasts  
+- **Richtig:** MAC-Broadcasts  
+- **Meine Sicht:** Ich wusste, dass Router Broadcasts stoppen, aber ich habe zu allgemein geantwortet.  
+  Die Frage meinte explizit Layer 2, deshalb wäre der korrekte Begriff *MAC-Broadcasts*.
+
+---
+
+### **9. In einem ____________ Netz ist jeder Netzwerkknoten mit einem oder mehreren anderen verbunden.**  
+- **Meine Antwort:** Mesh-Netz  
+- **Richtig:** vermaschtes Netz  
+- **Meine Sicht:** Inhaltlich war „Mesh“ richtig, aber die Prüfung wollte genau den Begriff aus der Präsentation.  
+  Ich habe den modernen Begriff benutzt, nicht den textidentischen.
+
+---
+
+### **11. … reduziert die Routing-Informationen auf die Angabe der _______________.**  
+- **Meine Antwort:** Ziel-Netzwerkadresse  
+- **Richtig:** Netzadresse  
+- **Meine Sicht:** Mein Gedanke war korrekt, aber ich habe nicht den exakten Fachbegriff verwendet, der erwartet wurde.
+
+---
+
+## ✔️ **Zusammenfassung aus meiner Perspektive**
+
+Ich habe den Test fachlich richtig verstanden.  
+Meine Fehler waren **Begriffsfehler**, keine Wissensprobleme. In allen Fällen wusste ich, wie Router funktionieren – ich habe nur nicht die **exakte Formulierung aus der Präsentation** benutzt.
+
+Wenn ich diese Begriffe verinnerliche, sollten solche Fehler in der Prüfung nicht mehr passieren.
+
+---
