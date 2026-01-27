@@ -64,8 +64,7 @@ kann überprüft werden, ob der DNS-Server korrekt antwortet.
 
 **Einfügen:**
 
-- Screenshot DNS-Fenster mit A-Record `test.ch`
-- Screenshot Konsole mit `nslookup test.ch`
+![Test](<Screenshot 2026-01-27 103517.png>)
 
 
 
