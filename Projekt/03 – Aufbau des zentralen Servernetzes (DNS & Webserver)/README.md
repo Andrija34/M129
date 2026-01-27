@@ -64,6 +64,7 @@ Diese Trennung ist entscheidend für das spätere Sicherheitskonzept.
 Hier wird das Servernetz dokumentiert.
 
 **Einfügen:**
-- Screenshot mit DNS-Server, Webserver, Switch und Router
-- Screenshot Netzwerkeinstellungen DNS-Server
-- Screenshot Netzwerkeinstellungen Webserver
+![Netz 5](<Screenshot 2026-01-27 102320.png>)
+![DNS-Server](<Screenshot 2026-01-27 103141.png>)
+![DNS-Einstellungen](<Screenshot 2026-01-27 142726.png>)
+![Webserver-Einstellungen](<Screenshot 2026-01-27 103209.png>)
