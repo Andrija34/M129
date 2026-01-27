@@ -54,6 +54,5 @@ Ohne diese Trennung wäre weder Routing noch eine gezielte Firewall-Regel mögli
 ## 📸 Nachweis (Screenshots)
 
 Hier wird die komplette Übersicht aller Netze eingefügt.
-
-**Einfügen:**  
-> Screenshot mit der Gesamtübersicht aller vier LANs (ohne Detailfenster)
+  
+![Übersicht](image.png)
