@@ -62,7 +62,4 @@ Ohne korrekt gesetztes Gateway und DNS wäre später weder Routing noch der Zugr
 Für jedes Netz wird das DHCP-Fenster dokumentiert.
 
 **Einfügen:**
-- Screenshot DHCP Netz 1
-- Screenshot DHCP Netz 2
-- Screenshot DHCP Netz 3
-- Screenshot DHCP Netz 4
+![Netz 1](<Screenshot 2026-01-27 102313.png>) ![Netz 2](<Screenshot 2026-01-27 102302.png>) ![Netz 3](<Screenshot 2026-01-27 102252.png>) ![Netz 4](<Screenshot 2026-01-27 102241.png>)
