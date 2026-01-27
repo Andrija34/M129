@@ -37,6 +37,8 @@ Beide Server wurden **manuell** konfiguriert:
 - IP-Adresse: `134.34.86.31`
 - Subnetzmaske: `255.255.255.0`
 - Gateway: `134.34.86.1`
+![DNS-Einstellungen](<Screenshot 2026-01-27 142726.png>)
+
 
 ### Webserver
 
@@ -44,6 +46,8 @@ Beide Server wurden **manuell** konfiguriert:
 - Subnetzmaske: `255.255.255.0`
 - Gateway: `134.34.86.1`
 - DNS: `134.34.86.31`
+![Webserver-Einstellungen](<Screenshot 2026-01-27 103209.png>)
+
 
 ---
 
@@ -65,6 +69,3 @@ Hier wird das Servernetz dokumentiert.
 
 **Einfügen:**
 ![Netz 5](<Screenshot 2026-01-27 102320.png>)
-![DNS-Server](<Screenshot 2026-01-27 103141.png>)
-![DNS-Einstellungen](<Screenshot 2026-01-27 142726.png>)
-![Webserver-Einstellungen](<Screenshot 2026-01-27 103209.png>)
