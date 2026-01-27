@@ -64,9 +64,8 @@ Das Routing ist die technische Grundlage für die gesamte Kommunikation im Proje
 
 **Einfügen:**
 
-- Screenshot Routerfenster mit aktivierter IP-Weiterleitung
-- Screenshot Weiterleitungstabelle Router Netz 1
-- Screenshot Weiterleitungstabelle Router Netz 2
-- Screenshot Weiterleitungstabelle Router Netz 3
-- Screenshot Weiterleitungstabelle Router Netz 4
-- Screenshot Weiterleitungstabelle Serverrouter
+![Router 5](<Screenshot 2026-01-27 103110.png>)
+![Router 4](<Screenshot 2026-01-27 103104.png>)
+![Router 3](<Screenshot 2026-01-27 103055.png>)
+![Router 2](<Screenshot 2026-01-27 103012.png>)
+![Router 1](<Screenshot 2026-01-27 103001.png>)
