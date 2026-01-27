@@ -70,5 +70,4 @@ Ob der Zugriff möglich ist, hängt später von der Firewallregel ab.
 
 **Einfügen:**
 
-- Screenshot Netzwerkeinstellungen des Webservers
-- Screenshot Browser mit aufgerufener Seite `http://test.ch`
+![Webserver](<Screenshot 2026-01-27 103235.png>)
