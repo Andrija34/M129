@@ -62,4 +62,6 @@ Das ist ein typisches Vorgehen in Unternehmensnetzwerken.
 
 **Einfügen:**
 
-- Screenshot der Firewallregel auf dem Switch im Servernetz
+![Netz 1](image.png)
+![Netz 2](image-1.png)
+![Netz 3](image-2.png)
