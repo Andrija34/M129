@@ -16,7 +16,7 @@ Von Clients aus verschiedenen Netzen wurden Ping-Tests durchgeführt:
 
 ➡️ Beweis, dass das Routing korrekt funktioniert.
 
-📸 **Screenshot einfügen:** Konsole mit mehreren Ping-Tests
+![Ping-Test](<Screenshot 2026-01-27 103318.png>)
 
 ---
 
@@ -30,7 +30,7 @@ wurde überprüft, ob der DNS-Server den Domainnamen korrekt in die IP-Adresse d
 
 ➡️ Beweis, dass die DNS-Konfiguration korrekt ist.
 
-📸 **Screenshot einfügen:** Konsole mit nslookup
+![nslookup](<Screenshot 2026-01-27 103517.png>)
 
 ---
 
@@ -47,7 +47,7 @@ Beobachtung:
 
 ➡️ Beweis, dass die Firewallregel korrekt greift.
 
-📸 **Screenshot einfügen:** Browseransicht aus Netz 4
+![Browser](<Screenshot 2026-01-27 103235.png>)
 
 ---
 
