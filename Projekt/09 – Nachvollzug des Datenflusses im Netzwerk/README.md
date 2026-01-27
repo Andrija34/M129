@@ -35,9 +35,6 @@ Der DNS-Server antwortet:
 
 test.ch → 134.34.86.30
 
-yaml
-Code kopieren
-
 ---
 
 ## 🗺️ Schritt 3 – Routing zum Servernetz
